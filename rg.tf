@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "name" {
+resource "azurerm_resource_group" "rg" {
     name = "ajay-rg"
     location = "australia east"
   
