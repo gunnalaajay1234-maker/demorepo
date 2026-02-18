@@ -3,6 +3,7 @@ resource "azurerm_resource_group" "rg" {
     location = "australia east"
     tags = {
       department = "it"
+      owner = devenv
     }
   
 }
